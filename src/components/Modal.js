@@ -14,8 +14,8 @@ const install = (Vue, Options) => {
     ok && (component.ok = ok)
     component.success = success
 
-    component.value = true
-    $app().appendChild(component.$el)
+    // component.value = true
+    // $app().appendChild(component.$el)
   }
   Vue.prototype.$closeModal = () => {
     $app().removeChild(component.$el)
