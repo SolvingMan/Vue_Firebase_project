@@ -13,6 +13,11 @@ div
             
 </template>
 
+<style>
+  body{
+    background: #666 !important;
+  }
+</style>
 
 <script>
 
