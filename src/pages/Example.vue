@@ -8,8 +8,7 @@
                     <span class="white--text">Card title</span>
                 </v-card-title>
             </v-card-row>
-            <v-card-row img="https://images.unsplash.com/photo-1439886183900-e79ec0057170?dpr=1&auto=compress,format&fit=crop&w=991&h=608&q=80&cs=tinysrgb&crop=" height="300px"></v-card-row>
-            <v-card-text>
+             <v-card-text>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet at cupiditate dolorem doloribus esse expedita ipsum magnam necessitatibus neque, optio perferendis placeat porro quas quisquam repellat repellendus reprehenderit ut.
                 </p>
