@@ -14,6 +14,7 @@ v-container
               v-list-tile-sub-title
                 timeago(:since='item.time', :auto-update='10')
   v-layout
+    v-flex(xs12, xl6)
       v-text-field(v-model='message', label='Type your message and press Enter to send...', @keyup.enter.native='send')
 </template>
 <script>

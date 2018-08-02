@@ -11,7 +11,7 @@ v-flex(xs12)
           :is="field.type == 'radios' ? 'v-radio' : 'v-checkbox'", 
           :key='option.value',
           :value='option.value', 
-          
+          :label='option.text',
         )
   template(v-else-if="['date', 'datetime', 'time'].indexOf(field.type) > -1")
     v-menu
